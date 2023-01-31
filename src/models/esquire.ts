@@ -7,7 +7,8 @@ export class Esquire extends Character {
     name: string,
     family: string,
     age: number,
-    public knight: Fighter
+    public knight: Fighter,
+    public submission: number
   ) {
     super(name, family, age);
     this.message = 'Soy un loser';
